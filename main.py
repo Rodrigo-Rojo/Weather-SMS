@@ -55,7 +55,7 @@ message = client.messages.create(
     body=f"Today the lowest temp: {min(temp_list)}°F and the Highest: {max(temp_list)}°F\n"
          f", Today is going to be: {main_string} and {description_string}",
     from_="+16692383298",
-    to="2082274011"
+    to="YourPhoneNumber"
 )
 
 print(message.status)
